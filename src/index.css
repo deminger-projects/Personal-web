@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  
+}
+
+
+.background-text {
+  position: relative;
+  height: 100vh; /* Adjust as needed */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200"><text x="0" y="50" font-size="50" fill="rgba(255, 255, 255, 0.1)">Your String Here</text></svg>');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

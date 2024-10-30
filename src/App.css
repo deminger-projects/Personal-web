@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#projekty_cont{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.projekty_item{
+  flex-basis: 25%;
+  text-align: center;
+  padding: 80px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projekt_img{
+  width: 100%;
+  height: 250px;
+}
+
+
+.tech_body{ 
+  text-align: left;
+}
+
+
+
+#osobni_info_cont{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.info_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+
+
+
+#linky{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.link_cont{
+  padding: 25px;
+}
+
+.odkaz{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+#navigace{
+  position: relative;
+}
+
+
+.link_button{
+  position: relative;
+  width: 150px;
+  height: 50px;
+}
+
+
+.vzdelani{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vzdelani_cont{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+
+}
+
+.vzdelani_item{
+  
 }
