@@ -1,16 +1,17 @@
+import edu_logo from "./../images/edu_logo.png"
+
 export default function Vzdelani(props){
 
     return(
         <>
             <div className="vzdelani">
-                <div className="vzdelani_item">
-                    <p>{"Field of study: " + props.obor}</p>
-                    <p>{"Institute: " + props.fakulta}</p>
-                    <p>{"Timeline: " + props.datum_studia}</p>
-                </div>
-                
 
-             
+                <p>{props.obor + ", " + props.datum_studia}</p>
+
+                <div className="fakulta">
+                    <p>{props.fakulta}</p>
+                </div>
+
             </div>
         </>
     )

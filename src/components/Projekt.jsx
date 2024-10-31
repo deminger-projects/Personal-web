@@ -1,34 +1,75 @@
-import ohen from "../videos/ohen.mp4"
 
 export default function Projekt(props){
 
 
     return(
         <>
-            <div className="projekty_item">
-                <p>{props.name}</p>
 
-                <video src={ohen} onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()}></video>
-                
-                {//<img className="projekt_img" width={"300px"} height={"200px"} src={props.img} alt="projekt"/>
-                }
+            
+            {props.order == 1 ?
+            <>
+                <div className="project_item is_left">
+                        <div className="video_div">
+                     
+                            <video muted src={props.video_url} onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()}></video>
+                        </div>
+                    
+                        <div className="text_div">
+                            <div>
+                                <p>{props.name}</p>
+                                
+                                <p>{props.popis}</p>
 
-                <div className="tech_body">
-                    <p>{props.popis}</p>
+                                <p>Used technology:</p>
 
-                    <p>Used technology:</p>
+                                <ul>
+                                    {props.tech.map((item) => 
+                                        <li>{item}</li>
+                                    )}
+                                </ul>
 
-                    <ul>
-                        {props.tech.map((item) => 
-                            <li>{item}</li>
-                        )}
-                    </ul>
-
-                    <p>GitHub repository: <a href={props.odkaz}>{props.odkaz}</a></p>
-
-                </div>
-
+                                {props.odkaz.map((item, index) => 
+                                    <p>Code sample - <a target="_blank" href={item}>{props.url_name[index]}</a></p>
+                                )}
+                            </div>
+                        
+                        </div>
             </div>
+                    
+                        
+            </> : <>
+            <div className="project_item is_right">
+
+                <div className="text_div">
+                        <div>
+                            <p>{props.name}</p>
+                            
+                            <p>{props.popis}</p>
+
+                            <p>Used technology:</p>
+
+                            <ul>
+                                {props.tech.map((item) => 
+                                    <li>{item}</li>
+                                )}
+                            </ul>
+
+                            {props.odkaz.map((item, index) => 
+                                <p>Code sample - <a target="_blank" href={item}>{props.url_name[index]}</a></p>
+                            )}
+                        </div>
+                       
+                    </div>
+                       
+
+                    <div className="video_div">
+                        <video muted src={props.video_url} onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()}></video>
+                    </div>
+            </div>
+                                
+                    
+            </>}            
+           
         </>
     )
 }

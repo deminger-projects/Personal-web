@@ -17,11 +17,11 @@ export default function Main(){
             <Projekty></Projekty>
             <Kontakt></Kontakt>
 
-            {/* <div id="skills">
+             <div id="skills">
                 <Vzdelani_show_case></Vzdelani_show_case>
                 <Dovednosti></Dovednosti>
             </div>
-             */}
+             
 
         </>
     )

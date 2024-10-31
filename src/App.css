@@ -1,30 +1,97 @@
+#video_div{
+  
+}
 
-#projekty_cont{
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#projekty_cont_big{
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.projekty_cont{
   display: flex;
   flex-wrap: wrap;
+  
+}
+
+.project_item{
+  display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
+  padding-top: 100px;
+}
+
+.video_div{
+  height: 320px;
+  width: 66%;
+}
+
+.text_div{
+  background-color: #fcfbfa;
+  height: 320px;
+  width: 500px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+}
+
+ul{
+  list-style-type: square;
+}
+
+a{
+  color: black;
 }
 
 .projekty_item{
-  flex-basis: 25%;
-  text-align: center;
-  padding: 80px;
+  justify-content: center;
+  width: 50%;
+  
+}
+
+.projekt_text{
+  background-color: blue;
 
 }
 
-.projekt_img{
-  width: 100%;
-  height: 250px;
+.test{
+  padding-top: 90px;
 }
 
 
-.tech_body{ 
-  text-align: left;
+#pro1{
+}
+
+body{
+  font-family: Garamond, serif;
+  font-size: 17px;
+  
+}
+
+#skills{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  height: 500px;
 }
 
 
+.link_logo{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
 
 #osobni_info_cont{
   position: relative;
@@ -34,6 +101,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 50px;
+
+ 
 }
 
 .info_item{
@@ -56,8 +125,10 @@
 }
 
 .link_cont{
+
   padding: 25px;
 }
+
 
 .odkaz{
   text-decoration: none;
@@ -79,10 +150,11 @@
 
 
 .vzdelani{
-  flex-basis: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+}
+
+.fakulta{
+  padding-left: 20px;
 }
 
 #vzdelani_cont{
@@ -97,4 +169,35 @@
 
 .vzdelani_item{
   
+}
+
+.skills_item{
+  padding-left: 20px;
+}
+
+.dovednosti_cont{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dovednosti_single{
+  padding-left: 20px;
+}
+
+table{
+  border: 1px solid black;
+  
+}
+
+li{
+  padding: 1px;
+}
+
+.is_right{
+  padding-right: 100px;
+}
+
+.is_left{
+  padding-left: 100px;
 }
