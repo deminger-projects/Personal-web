@@ -17,7 +17,7 @@ export default function Projekt(props){
                                 
                                 <p>{props.popis}</p>
 
-                                <p>Used technology:</p>
+                                <p>Technology used:</p>
 
                                 <ul>
                                     {props.tech.map((item) => 
@@ -42,7 +42,7 @@ export default function Projekt(props){
                             
                             <p>{props.popis}</p>
 
-                            <p>Used technology:</p>
+                            <p>Technology used:</p>
 
                             <ul>
                                 {props.tech.map((item) => 
