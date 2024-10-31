@@ -1,6 +1,4 @@
-import { useState } from "react";
 import Linky_na_info from "./Linky_na_info";
-import { useEffect } from "react";
 
 export default function Osobni_info(){
 

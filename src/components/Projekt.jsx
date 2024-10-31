@@ -1,11 +1,8 @@
 
 export default function Projekt(props){
 
-
     return(
         <>
-
-            
             {props.order == 1 ?
             <>
                 <div className="project_item is_left">
@@ -15,7 +12,7 @@ export default function Projekt(props){
                         </div>
                     
                         <div className="text_div">
-                            <div>
+                            <div className="test1">
                                 <p>{props.name}</p>
                                 
                                 <p>{props.popis}</p>
@@ -36,12 +33,11 @@ export default function Projekt(props){
                         </div>
             </div>
                     
-                        
             </> : <>
             <div className="project_item is_right">
 
                 <div className="text_div">
-                        <div>
+                        <div className="test1">
                             <p>{props.name}</p>
                             
                             <p>{props.popis}</p>
@@ -66,10 +62,8 @@ export default function Projekt(props){
                         <video muted src={props.video_url} onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()}></video>
                     </div>
             </div>
-                                
-                    
+                        
             </>}            
-           
         </>
     )
 }

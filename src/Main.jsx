@@ -9,9 +9,6 @@ export default function Main(){
 
     return(
         <>
-            {//<Navigace></Navigace>
-            }
-
             <Osobni_info></Osobni_info>
     
             <Projekty></Projekty>
@@ -21,8 +18,6 @@ export default function Main(){
                 <Vzdelani_show_case></Vzdelani_show_case>
                 <Dovednosti></Dovednosti>
             </div>
-             
-
         </>
     )
 

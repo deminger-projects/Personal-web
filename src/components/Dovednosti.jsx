@@ -7,7 +7,6 @@ export default function Dovednosti(){
 
                 <div className="dovednosti_cont">
                     
-                    
                         <div className="dovednosti_single">
                             <p>Languages and frameworls</p>
 
@@ -25,8 +24,6 @@ export default function Dovednosti(){
                         
                         </div>
                     
-                    
-
                     <div className="dovednosti_single">
                         <p>Databaze systems</p>
 
@@ -53,7 +50,6 @@ export default function Dovednosti(){
                         </ul>
                     </div>  
                 </div>
-                
             </div>
         </>
     )
