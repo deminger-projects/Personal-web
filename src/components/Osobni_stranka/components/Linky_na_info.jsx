@@ -1,4 +1,4 @@
-import resume_eng from "../../../resumes/resome_english.pdf"
+import resume_eng from "../../../resumes/resume_english.pdf"
 //import resume_cz from "../../resumes/resome_cesky.pdf"
 
 import linked_in_logo from "../../../images/LinkedIn_logo_initials.png"
