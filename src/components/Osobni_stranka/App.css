@@ -27,6 +27,8 @@ video{
   flex-direction: row;
   padding-top: 80px;
   padding-right: 40px;
+  justify-content: center;
+    align-items: center;
 }
 
 .is_right{
@@ -37,7 +39,14 @@ video{
   padding-left: 100px;
 }
 
-@media (max-width:600px) {
+.video_div{
+  height: 320px;
+  width: 66%;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+@media (max-width:700px) {
 
   .is_right{
     padding-right: 0px;
@@ -57,19 +66,19 @@ video{
     align-items: center;
     padding-left: 40px;
   } 
+
+  video{
+    width: 300px;
+  }
 }
 
 
-.video_div{
-  height: 320px;
-  width: 60%;
-  min-width: 300px;
-}
+
 
 .text_div{
   background-color: #fcfbfa;
   height: 320px;
-  width: 40%;
+  width: 33%;
   display: flex;
   align-items: center;
   justify-content: center;

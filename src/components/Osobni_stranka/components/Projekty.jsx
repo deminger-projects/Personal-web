@@ -1,9 +1,9 @@
 import { Suspense, lazy } from 'react';
 
-import mapa_video from "./videos/mapa_video.mp4"
-import generator_video from "./videos/generator_video.mp4"
-import ehop_video from "./videos/eshop_video.mp4"
-import persinal_video from "./videos/personal_video.mp4"
+import mapa_video from "../videos/mapa_video.mp4"
+import generator_video from "../videos/generator_video.mp4"
+import ehop_video from "../videos/eshop_video.mp4"
+import persinal_video from "../videos/personal_video.mp4"
 
 const Projekt = lazy(() => (import("./Projekt")));
 

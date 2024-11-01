@@ -1,4 +1,4 @@
-import './App.css';
+import '../src/components/Osobni_stranka/App.css';
 
 import Main from './Main';
 
