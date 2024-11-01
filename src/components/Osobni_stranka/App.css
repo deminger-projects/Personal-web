@@ -173,6 +173,11 @@ body{
 }
 
 .link_cont{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 60px;
   padding-left: 25px;
   padding-right: 25px;
