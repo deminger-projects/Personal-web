@@ -2,7 +2,7 @@ export default function Dovednosti(){
 
     return(
         <>
-            <div>
+            <div className="skills_test">
                 <h1>Skills</h1>
 
                 <div className="dovednosti_cont">

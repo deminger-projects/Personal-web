@@ -82,6 +82,10 @@ body{
   
 }
 
+.skills_test{
+  padding-left: 40px;
+}
+
 #skills{
   display: flex;
   flex-wrap: wrap;

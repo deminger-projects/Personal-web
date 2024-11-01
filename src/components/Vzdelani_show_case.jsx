@@ -4,7 +4,7 @@ export default function Vzdelani_show_case(){
 
     return(
         <>
-            <div>
+            <div className="skills_test">
                 <h1>Education</h1>
                 
                     <div className="skills_item">
