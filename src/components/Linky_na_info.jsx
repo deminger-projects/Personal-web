@@ -12,11 +12,11 @@ export default function Linky_na_info(){
             <div id="linky">
 
                 <div className="link_cont">
-                    <a href="https://www.linkedin.com/in/deminger" target="_blank" className="link_logo"><img src={linked_in_logo} alt="LinkedIn" height={"50px"} width={"50px"} /></a>
+                    <a rel="noreferrer" href="https://www.linkedin.com/in/deminger" target="_blank" className="link_logo"><img src={linked_in_logo} alt="LinkedIn" height={"50px"} width={"50px"} /></a>
                     
-                    <a href="https://github.com/deminger-projects" target="_blank" className="link_logo"><img src={github_logo} alt="GitHub" height={"50px"} width={"50px"} /></a>
+                    <a rel="noreferrer" href="https://github.com/deminger-projects" target="_blank" className="link_logo"><img src={github_logo} alt="GitHub" height={"50px"} width={"50px"} /></a>
 
-                    <a href={resume_eng} target="_blank" className="link_logo"><img src={resume_logo} alt="Resume" height={"50px"} width={"50px"} /></a>
+                    <a rel="noreferrer" href={resume_eng} target="_blank" className="link_logo"><img src={resume_logo} alt="Resume" height={"50px"} width={"50px"} /></a>
 
                     <br />
                 

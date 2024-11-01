@@ -26,7 +26,7 @@ export default function Projekt(props){
                                 </ul>
 
                                 {props.odkaz.map((item, index) => 
-                                    <p>Code sample - <a target="_blank" href={item}>{props.url_name[index]}</a></p>
+                                    <p>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
                                 )}
                             </div>
                         
@@ -51,7 +51,7 @@ export default function Projekt(props){
                             </ul>
 
                             {props.odkaz.map((item, index) => 
-                                <p>Code sample - <a target="_blank" href={item}>{props.url_name[index]}</a></p>
+                                <p>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
                             )}
                         </div>
                        
