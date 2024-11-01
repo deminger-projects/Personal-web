@@ -19,6 +19,7 @@ export default function Dovednosti(){
                                     <li>Python</li>
                                     <li>PHP</li>
                                     <li>TypeScript</li>
+                                    <li>C</li>
                                 </ul>
                             </div>
                         
