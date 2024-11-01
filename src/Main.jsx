@@ -12,7 +12,6 @@ export default function Main(){
             <Osobni_info></Osobni_info>
     
             <Projekty></Projekty>
-            <Kontakt></Kontakt>
 
              <div id="skills">
                 <Vzdelani_show_case></Vzdelani_show_case>

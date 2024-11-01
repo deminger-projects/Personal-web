@@ -18,10 +18,6 @@ export default function Osobni_info(){
                         <p>Currently, I am primarily interested in <strong>web development</strong> and am mostly working with <strong>JavaScript</strong> and its frameworks.</p>
                         <p>I have designed and developed full-stack applications, as well as some smaller projects, which you can see showcased below.</p>
 
-                        {/* <br />
-
-                        <p>Along the way, I've explored various fields, including networking, hardware, programming, databases, SEO, and data analytics.</p>
-                        <p>My other passions are art, nature, fashion, and minimalism.</p> */}
                     </div>
                 </div>
                
