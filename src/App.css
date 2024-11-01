@@ -25,7 +25,7 @@ video{
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-right: 40px;
 }
 
@@ -56,11 +56,8 @@ video{
     justify-content: center;
     align-items: center;
     padding-left: 40px;
-  }
-
- 
+  } 
 }
-
 
 
 .video_div{
@@ -142,17 +139,16 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 50px;
-
- 
+  justify-content: space-around; 
+  padding-top: 40px;
 }
 
 .info_item{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-left: 40px;
+  padding-left: 40px;
 }
 
 
@@ -168,8 +164,9 @@ body{
 }
 
 .link_cont{
-
-  padding: 25px;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 
