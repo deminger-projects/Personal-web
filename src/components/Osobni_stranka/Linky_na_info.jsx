@@ -1,9 +1,9 @@
-import resume_eng from "../resumes/resome_english.pdf"
-import resume_cz from "../resumes/resome_cesky.pdf"
+import resume_eng from "../../resumes/resome_english.pdf"
+//import resume_cz from "../../resumes/resome_cesky.pdf"
 
-import linked_in_logo from "../images/LinkedIn_logo_initials.png"
-import github_logo from "../images/github_logo.png"
-import resume_logo from "../images/resume_logo.png"
+import linked_in_logo from "../../images/LinkedIn_logo_initials.png"
+import github_logo from "../../images/github_logo.png"
+import resume_logo from "../../images/resume_logo.png"
 
 export default function Linky_na_info(){
 

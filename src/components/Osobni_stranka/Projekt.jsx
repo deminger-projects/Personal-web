@@ -1,9 +1,12 @@
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Projekt(props){
 
+    const navigate = useNavigate();
+
     return(
         <>
-            {props.order == 1 ?
+            {props.order === 1 ?
             <>
                 <div className="project_item is_left">
                         <div className="video_div">
@@ -13,7 +16,7 @@ export default function Projekt(props){
                     
                         <div className="text_div">
                             <div className="test1">
-                                <p>{props.name}</p>
+                                <p>{props.name} {props.link ? <>- <Link rel="noreferrer" target="_blank" to={props.link}>Try out</Link></> : <></>}</p>
                                 
                                 <p>{props.popis}</p>
 
@@ -38,7 +41,7 @@ export default function Projekt(props){
 
                 <div className="text_div">
                         <div className="test1">
-                            <p>{props.name}</p>
+                            <p>{props.name} {props.link ? <>- <Link rel="noreferrer" target="_blank" to={props.link}>Try out</Link></> : <></>}</p>
                             
                             <p>{props.popis}</p>
 

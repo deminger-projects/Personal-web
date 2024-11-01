@@ -62,14 +62,14 @@ video{
 
 .video_div{
   height: 320px;
-  width: 66%;
+  width: 60%;
   min-width: 300px;
 }
 
 .text_div{
   background-color: #fcfbfa;
   height: 320px;
-  width: 33%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,7 +148,7 @@ body{
   justify-content: center;
   align-items: center;
   padding-left: 40px;
-  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
@@ -164,7 +164,7 @@ body{
 }
 
 .link_cont{
-  padding-top: 40px;
+  padding-top: 60px;
   padding-left: 25px;
   padding-right: 25px;
 }

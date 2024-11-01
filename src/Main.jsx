@@ -1,9 +1,9 @@
-import Osobni_info from "./components/Osobni_info";
-import Projekty from "./components/Projekty";
-import Kontakt from "./components/Kontakt";
-import Navigace from "./components/Navigace";
-import Vzdelani_show_case from "./components/Vzdelani_show_case";
-import Dovednosti from "./components/Dovednosti";
+import Osobni_info from "./components/Osobni_stranka/Osobni_info";
+import Projekty from "./components/Osobni_stranka/Projekty";
+//import Kontakt from "./components/Osobni_stranka/Kontakt";
+//import Navigace from "./components/Osobni_stranka/Navigace";
+import Vzdelani_show_case from "./components/Osobni_stranka/Vzdelani_show_case";
+import Dovednosti from "./components/Osobni_stranka/Dovednosti";
 
 export default function Main(){
 

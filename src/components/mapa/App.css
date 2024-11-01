@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+button{
+  position: relative;
+  width: 120px;
+  background-color:#f2efe9;
+  border-color: #f2efe9;
+  border-radius: 4px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.input_my{
+  position: relative;
+  width: 150px;
+}
+
+#mereni_delky_comp{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 170px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.mereni_delky_items{
+  position: relative;
+  padding: 5px;
+}
+
+.swtich_button{
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+#my_components{
+  position: relative;
+  top: 120px;
+  width: 200px;
+}
+
+.tlacitka_funkce{
+  position: relative;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+body {
+  margin: 0;  
+  font-family: Garamond, serif;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
