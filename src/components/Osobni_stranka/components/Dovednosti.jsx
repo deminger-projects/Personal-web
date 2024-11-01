@@ -30,6 +30,8 @@ export default function Dovednosti(){
                         <ul>
                             <li>MySQL</li>
                             <li>MongoDB</li>
+                            <li>Firebase</li>
+                            <li>AWS</li>
                         </ul>
                     </div>
                     
@@ -47,6 +49,10 @@ export default function Dovednosti(){
                             <li>SEO</li>
                             <li>Micfosoft office</li>
                             <li>Data analytics</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>REST API</li>
+                            <li>MVC</li>
                         </ul>
                     </div>  
                 </div>
