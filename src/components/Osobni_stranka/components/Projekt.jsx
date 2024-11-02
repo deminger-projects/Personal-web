@@ -13,6 +13,7 @@ export default function Projekt(props){
               video.pause();
             })
             .catch(error => {
+                console.log(error)
               // Auto-play was prevented
               // Show paused UI.
             });
@@ -37,13 +38,13 @@ export default function Projekt(props){
                                 <p>Technology used:</p>
 
                                 <ul>
-                                    {props.tech.map((item) => 
-                                        <li>{item}</li>
+                                    {props.tech.map((item, index) => 
+                                        <li key={index.toString()}>{item}</li>
                                     )}
                                 </ul>
 
                                 {props.odkaz.map((item, index) => 
-                                    <p>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
+                                    <p key={index.toString()}>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
                                 )}
                             </div>
                         
@@ -63,12 +64,12 @@ export default function Projekt(props){
 
                             <ul>
                                 {props.tech.map((item) => 
-                                    <li>{item}</li>
+                                    <li key={index.toString()}>{item}</li>
                                 )}
                             </ul>
 
                             {props.odkaz.map((item, index) => 
-                                <p>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
+                                <p key={index.toString()}>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
                             )}
                         </div>
                        
