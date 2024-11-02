@@ -19,7 +19,7 @@ export default function Projekt(props){
             });
         }
     }
-
+ 
     return(
         <>
             {props.order === 1 ?
