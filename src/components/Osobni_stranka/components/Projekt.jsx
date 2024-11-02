@@ -2,7 +2,22 @@ import { useNavigate, Link } from "react-router-dom";
 
 export default function Projekt(props){
 
-    const navigate = useNavigate();
+    var handle_play = (video) => {
+        var playPromise = video.play();
+
+        if (playPromise !== undefined) {
+            playPromise.then(_ => {
+              // Automatic playback started!
+              // Show playing UI.
+              // We can now safely pause video...
+              video.pause();
+            })
+            .catch(error => {
+              // Auto-play was prevented
+              // Show paused UI.
+            });
+        }
+    }
 
     return(
         <>
@@ -10,7 +25,7 @@ export default function Projekt(props){
             <>
                 <div className="project_item is_left">
                         <div className="video_div">
-                            <video muted src={props.video_url} onMouseOver={event => {if(!(event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.play()}}} onMouseOut={event => {if((event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.pause()}}}></video>
+                            <video muted preload="none" src={props.video_url} onMouseOver={event => handle_play(event.target)} onMouseOut={event => event.target.pause()}></video>
                         </div>
                     
                         <div className="text_div">
@@ -61,7 +76,7 @@ export default function Projekt(props){
                        
 
                     <div className="video_div">
-                        <video muted src={props.video_url} onMouseOver={event => {if(!(event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.play()}}} onMouseOut={event => {if((event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.pause()}}}></video>
+                        <video muted preload="none" src={props.video_url} onMouseOver={event => handle_play(event.target)} onMouseOut={event => event.target.pause()}></video>
                     </div>
             </div>
                         
