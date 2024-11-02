@@ -10,7 +10,7 @@ export default function Projekt(props){
               // Automatic playback started!
               // Show playing UI.
               // We can now safely pause video...
-              video.pause();
+              //video.pause();
             })
             .catch(error => {
                 console.log(error)
