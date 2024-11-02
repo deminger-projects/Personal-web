@@ -26,7 +26,7 @@ export default function Projekt(props){
             <>
                 <div className="project_item is_left">
                         <div className="video_div">
-                            <video muted preload="none" src={props.video_url} onMouseOver={event => handle_play(event.target)} onMouseOut={event => event.target.pause()}></video>
+                            <video muted src={props.video_url} onMouseOver={event => handle_play(event.target)} onMouseOut={event => event.target.pause()}></video>
                         </div>
                     
                         <div className="text_div">
@@ -77,7 +77,7 @@ export default function Projekt(props){
                        
 
                     <div className="video_div">
-                        <video muted preload="none" src={props.video_url} onMouseOver={event => handle_play(event.target)} onMouseOut={event => event.target.pause()}></video>
+                        <video muted src={props.video_url} onMouseOver={event => handle_play(event.target)} onMouseOut={event => event.target.pause()}></video>
                     </div>
             </div>
                         
