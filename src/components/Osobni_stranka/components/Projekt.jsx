@@ -36,7 +36,7 @@ export default function Projekt(props){
                                 <p>{props.popis}</p>
 
                                 <p>Technology used:</p>
-
+{/* 
                                 <ul>
                                     {props.tech.map((item, index) => 
                                         <li key={index.toString()}>{item}</li>
@@ -45,7 +45,7 @@ export default function Projekt(props){
 
                                 {props.odkaz.map((item, index) => 
                                     <p key={index.toString()}>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
-                                )}
+                                )} */}
                             </div>
                         
                         </div>
@@ -62,7 +62,7 @@ export default function Projekt(props){
 
                             <p>Technology used:</p>
 
-                            <ul>
+                            {/* <ul>
                                 {props.tech.map((item) => 
                                     <li key={index.toString()}>{item}</li>
                                 )}
@@ -70,7 +70,7 @@ export default function Projekt(props){
 
                             {props.odkaz.map((item, index) => 
                                 <p key={index.toString()}>Code sample - <a rel="noreferrer" target="_blank" href={item}>{props.url_name[index]}</a></p>
-                            )}
+                            )} */}
                         </div>
                        
                     </div>
