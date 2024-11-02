@@ -10,8 +10,7 @@ export default function Projekt(props){
             <>
                 <div className="project_item is_left">
                         <div className="video_div">
-                     
-                            <video muted src={props.video_url} onMouseOver={event => {if(!(event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.play()}}} onMouseOut={event => event.target.pause()}></video>
+                            <video muted src={props.video_url} onMouseOver={event => {if(!(event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.play()}}} onMouseOut={event => {if((event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.pause()}}}></video>
                         </div>
                     
                         <div className="text_div">
@@ -62,7 +61,7 @@ export default function Projekt(props){
                        
 
                     <div className="video_div">
-                        <video muted src={props.video_url} onMouseOver={event => {if(!(event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.play()}}} onMouseOut={event => event.target.pause()}></video>
+                        <video muted src={props.video_url} onMouseOver={event => {if(!(event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.play()}}} onMouseOut={event => {if((event.target.currentTime > 0 && !event.target.paused && event.target.readyState > event.target.HAVE_CURRENT_DATA)){event.target.pause()}}}></video>
                     </div>
             </div>
                         
